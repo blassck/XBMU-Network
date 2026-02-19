@@ -30,17 +30,15 @@ cd XBMU-Network
 
 ### 2. 配置参数
 
-编辑配置文件 `config.yaml` 或在脚本中修改以下字段：
-
+编辑配置文件，在脚本中修改以下字段：
+* **__main__**
 * **Username**: 学号
 * **Password**: 校园网密码
-* **Operator**: 运营商类型（如 `cmcc` 移动, `telecom` 电信, `unicom` 联通, 或 `local` 校园网）
-
 ### 3. 运行脚本
 
 ```bash
 # 以 Python 为例
-python main.py
+python3 srun.py
 
 ```
 
@@ -58,7 +56,7 @@ python main.py
 
 ```bash
 # 每5分钟检查一次网络状态
-*/5 * * * * /usr/bin/python3 /path/to/XBMU-Network/main.py >> /var/log/xbmu_net.log
+*/5 * * * * /usr/bin/python3 /path/to/XBMU-Network/srun.py >> /var/log/xbmu_net.log
 
 ```
 
