@@ -1,13 +1,7 @@
 西北民族大学校园网认证工具  
 改编自https://github.com/HollowMan6/Srun-LZU-Network-Auth  
 食用方法请参考前面链接  
-由于我实在太懒  连.md都懒得写
 
-看起来你正准备为 **XBMU-Network** 编写 README 文档。由于 XBMU（西北民族大学）和 LZU（兰州大学）通常都使用深澜软件（Srun）作为校园网认证系统，参考 `HollowMan6` 的项目是一个非常明智的选择。
-
-下面我为你起草了一个标准的 GitHub `README.md` 模板，兼顾了功能说明和社区友好度：
-
----
 
 # XBMU-Network
 
